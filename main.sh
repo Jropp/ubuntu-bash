@@ -23,5 +23,5 @@ appDeploy() {
         fdapp
         git reset --hard HEAD
         pullapp
-        buildProd
+        appRebuild
 }
