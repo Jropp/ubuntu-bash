@@ -25,3 +25,10 @@ appDeploy() {
         pullapp
         appRebuild
 }
+
+apiDeploy() {
+        pullapi
+        npm i
+        pm2 stop api
+        pm2 start api
+}
