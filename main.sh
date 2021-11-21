@@ -8,7 +8,7 @@ alias fdapi="cd && cd $API_FOLDER_PATH"
 alias fdscripts="cd && cd $SCRIPTS_FOLDER_PATH"
 
 alias pullapp="fdapp && ssh-agent bash -c \"ssh-add $APP_SSH_PATH; git pull\""
-alias pullapi="fdapi && ssh-agent bash -c \"ssh-add $API_SSH_PATH; git pull]\""
+alias pullapi="fdapi && ssh-agent bash -c \"ssh-add $API_SSH_PATH; git pull\""
 alias pullscripts='fdscripts && git pull'
 
 appRebuild() {
