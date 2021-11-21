@@ -27,6 +27,8 @@ appDeploy() {
 }
 
 apiDeploy() {
+        fdapi
+        git reset --hard HEAD
         pullapi
         npm i
         pm2 stop api
